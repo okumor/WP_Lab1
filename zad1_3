@@ -7,9 +7,15 @@ int main() {
     scanf("%d", &wartosc);
 
     int temp;
-    printf("Wybierz przelicznik:");
-    scanf(" %c", &temp)
+    printf("Wybierz przelicznik klikajac 1(C0 lub 2(F)):");
+    scanf("%d", &temp)
 
-    int = C
+    if ( temp = 1)
+    {
+        printf("twoja wart w C to: %d - 32 / 1.8", wartosc);
+
+    }
+
+    
     }
 }
