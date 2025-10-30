@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+
+    Int wartosc;
+    printf("Podaj wartosc temp.:");
+    scanf("%d", &wartosc);
+
+    int temp;
+    printf("Wybierz przelicznik:");
+    scanf(" %c", &temp)
+
+    int = C
+    }
+}

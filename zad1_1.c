@@ -2,15 +2,18 @@
 #include <stdbool.h>
 
 int main() {
-    int rok_urodzenia = 2005;
-    float wzrost = 3.14f;
-    char znak = 'A';
-    bool prawko = true;
+    int rok_urodzenia;
+    printf("Podaj rok urodzenia:");
+    scanf("%d", &rok_urodzenia);
 
-    printf("Zmienna 'rok_urodzenia' ma wartość: %d i zajmuje %zu bajty\n", rok_urodzenia, sizeof(rok_urodzenia));
-    printf("Zmienna 'wzrost' ma wartość: %.2f i zajmuje %zu bajty\n", wzrost, sizeof(wzrost));
-    printf("Zmienna 'znak' ma wartość: %c i zajmuje %zu bajty\n", znak, sizeof(znak));
-    printf("Zmienna 'prawko' ma wartość: %d (true=1, false=0) i zajmuje %zu bajt\n", prawko, sizeof(prawko));
+   int wzrost;
+   printf("Podqaj wzrost:");
+   scanf("%d", &wzrost);
+
+   printf("Mam %d wzrostu, urodzony %d", wzrost, rok_urodzenia);
+
+   int wiek = 2025 - rok_urodzenia;
+   printf("mam %d lat", wiek);
 
     return 0;
 }
